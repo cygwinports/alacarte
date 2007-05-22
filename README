@@ -4,12 +4,12 @@ Alacarte is a menu editor for GNOME using the freedesktop.org
 menu specification.
 
 Runtime requirements:
-  pygmenu-2.16.1-1
-  pygnome2-2.16.2-1
-  pygnomevfs2-2.16.2-1
-  pygobject2-2.12.3-1
-  pygtk2-2.10.3-1
-  python-2.4.3-1
+  python-2.5.1-1
+  python-gmenu-2.18.0-1
+  python-gnome2-2.18.2-1
+  python-gnomevfs2-2.18.2-1
+  python-gobject2-2.12.3-2
+  python-gtk2-2.10.4-2
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -17,9 +17,9 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.9-1
+  cygport-0.3.1-1
   gawk-3.1.5-4
-  intltool-0.35.4-1
+  intltool-0.35.5-1
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -49,24 +49,24 @@ Files included in the binary package:
 
   /etc/postinstall/alacarte.sh
   /usr/bin/alacarte
-  /usr/lib/python2.4/site-packages/Alacarte/DialogHandler.py
-  /usr/lib/python2.4/site-packages/Alacarte/DialogHandler.pyc
-  /usr/lib/python2.4/site-packages/Alacarte/DialogHandler.pyo
-  /usr/lib/python2.4/site-packages/Alacarte/MainWindow.py
-  /usr/lib/python2.4/site-packages/Alacarte/MainWindow.pyc
-  /usr/lib/python2.4/site-packages/Alacarte/MainWindow.pyo
-  /usr/lib/python2.4/site-packages/Alacarte/MenuEditor.py
-  /usr/lib/python2.4/site-packages/Alacarte/MenuEditor.pyc
-  /usr/lib/python2.4/site-packages/Alacarte/MenuEditor.pyo
-  /usr/lib/python2.4/site-packages/Alacarte/__init__.py
-  /usr/lib/python2.4/site-packages/Alacarte/__init__.pyc
-  /usr/lib/python2.4/site-packages/Alacarte/__init__.pyo
-  /usr/lib/python2.4/site-packages/Alacarte/config.py
-  /usr/lib/python2.4/site-packages/Alacarte/config.pyc
-  /usr/lib/python2.4/site-packages/Alacarte/config.pyo
-  /usr/lib/python2.4/site-packages/Alacarte/util.py
-  /usr/lib/python2.4/site-packages/Alacarte/util.pyc
-  /usr/lib/python2.4/site-packages/Alacarte/util.pyo
+  /usr/lib/python2.5/site-packages/Alacarte/DialogHandler.py
+  /usr/lib/python2.5/site-packages/Alacarte/DialogHandler.pyc
+  /usr/lib/python2.5/site-packages/Alacarte/DialogHandler.pyo
+  /usr/lib/python2.5/site-packages/Alacarte/MainWindow.py
+  /usr/lib/python2.5/site-packages/Alacarte/MainWindow.pyc
+  /usr/lib/python2.5/site-packages/Alacarte/MainWindow.pyo
+  /usr/lib/python2.5/site-packages/Alacarte/MenuEditor.py
+  /usr/lib/python2.5/site-packages/Alacarte/MenuEditor.pyc
+  /usr/lib/python2.5/site-packages/Alacarte/MenuEditor.pyo
+  /usr/lib/python2.5/site-packages/Alacarte/__init__.py
+  /usr/lib/python2.5/site-packages/Alacarte/__init__.pyc
+  /usr/lib/python2.5/site-packages/Alacarte/__init__.pyo
+  /usr/lib/python2.5/site-packages/Alacarte/config.py
+  /usr/lib/python2.5/site-packages/Alacarte/config.pyc
+  /usr/lib/python2.5/site-packages/Alacarte/config.pyo
+  /usr/lib/python2.5/site-packages/Alacarte/util.py
+  /usr/lib/python2.5/site-packages/Alacarte/util.pyc
+  /usr/lib/python2.5/site-packages/Alacarte/util.pyo
   /usr/share/alacarte/alacarte.glade
   /usr/share/alacarte/logo.svg
   /usr/share/applications/alacarte.desktop
@@ -137,6 +137,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.11.3-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.11.3-1 -----
 Version bump.
