@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="GNOME application menu editor"
+HOMEPAGE="http://www.realistanew.com/projects/alacarte/"
+
+USE_MANAGED_MOUNT=1
