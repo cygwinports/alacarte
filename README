@@ -4,24 +4,24 @@ Alacarte is a menu editor for GNOME using the freedesktop.org
 menu specification.
 
 Runtime requirements:
-  python-2.5.1-3
-  python-gmenu-2.18.0-1
-  python-gnome2-2.18.2-1
-  python-gnomevfs2-2.18.2-1
-  python-gobject2-2.12.3-2
-  python-gtk2-2.10.6-1
+  python-2.5.2-4
+  python-gmenu-2.24.2-1
+  python-gnome2-2.22.3-1
+  python-gnomevfs2-2.22.3-1
+  python-gobject2-2.15.4-1
+  python-gtk2-2.13.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
-  intltool-0.35.5-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gnome-common-2.24.0-1
+  intltool-0.40.5-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack alacarte-0.11.5-X-src.tar.bz2
+  unpack alacarte-0.11.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./alacarte-0.11.5-X.cygport all
+  cygport ./alacarte-0.11.6-X.cygport all
 
 This will create:
-  /usr/src/alacarte-0.11.5-X-src.tar.bz2
-  /usr/src/alacarte-0.11.5-X.tar.bz2
+  /usr/src/alacarte-0.11.6-X-src.tar.bz2
+  /usr/src/alacarte-0.11.6-X.tar.bz2
 
 -------------------------------------------
 
@@ -67,12 +67,12 @@ Files included in the binary package:
   /usr/share/alacarte/alacarte.glade
   /usr/share/alacarte/logo.svg
   /usr/share/applications/alacarte.desktop
-  /usr/share/doc/alacarte-0.11.5/AUTHORS
-  /usr/share/doc/alacarte-0.11.5/COPYING
-  /usr/share/doc/alacarte-0.11.5/ChangeLog
-  /usr/share/doc/alacarte-0.11.5/INSTALL
-  /usr/share/doc/alacarte-0.11.5/NEWS
-  /usr/share/doc/alacarte-0.11.5/README
+  /usr/share/doc/alacarte-0.11.6/AUTHORS
+  /usr/share/doc/alacarte-0.11.6/COPYING
+  /usr/share/doc/alacarte-0.11.6/ChangeLog
+  /usr/share/doc/alacarte-0.11.6/INSTALL
+  /usr/share/doc/alacarte-0.11.6/NEWS
+  /usr/share/doc/alacarte-0.11.6/README
   /usr/share/icons/hicolor/22x22/apps/alacarte.png
   /usr/share/icons/hicolor/scalable/apps/alacarte.svg
   /usr/share/locale/ar/LC_MESSAGES/alacarte.mo
@@ -148,6 +148,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.11.6-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 0.11.5-1 -----
 Version bump for GNOME 2.22.
