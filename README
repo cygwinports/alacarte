@@ -4,12 +4,12 @@ Alacarte is a menu editor for GNOME using the freedesktop.org
 menu specification.
 
 Runtime requirements:
-  python-2.5.2-4
+  python-2.5.4-1
   python-gmenu-2.24.2-1
   python-gnome2-2.22.3-1
   python-gnomevfs2-2.22.3-1
-  python-gobject2-2.15.4-1
-  python-gtk2-2.13.0-1
+  python-gobject2-2.16.0-1
+  python-gtk2-2.14.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack alacarte-0.11.6-X-src.tar.bz2
+  unpack alacarte-0.11.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./alacarte-0.11.6-X.cygport all
+  cygport ./alacarte-0.11.8-X.cygport all
 
 This will create:
-  /usr/src/alacarte-0.11.6-X-src.tar.bz2
-  /usr/src/alacarte-0.11.6-X.tar.bz2
+  /usr/src/alacarte-0.11.8-X-src.tar.bz2
+  /usr/src/alacarte-0.11.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -67,12 +67,12 @@ Files included in the binary package:
   /usr/share/alacarte/alacarte.glade
   /usr/share/alacarte/logo.svg
   /usr/share/applications/alacarte.desktop
-  /usr/share/doc/alacarte-0.11.6/AUTHORS
-  /usr/share/doc/alacarte-0.11.6/COPYING
-  /usr/share/doc/alacarte-0.11.6/ChangeLog
-  /usr/share/doc/alacarte-0.11.6/INSTALL
-  /usr/share/doc/alacarte-0.11.6/NEWS
-  /usr/share/doc/alacarte-0.11.6/README
+  /usr/share/doc/alacarte-0.11.8/AUTHORS
+  /usr/share/doc/alacarte-0.11.8/COPYING
+  /usr/share/doc/alacarte-0.11.8/ChangeLog
+  /usr/share/doc/alacarte-0.11.8/INSTALL
+  /usr/share/doc/alacarte-0.11.8/NEWS
+  /usr/share/doc/alacarte-0.11.8/README
   /usr/share/icons/hicolor/22x22/apps/alacarte.png
   /usr/share/icons/hicolor/scalable/apps/alacarte.svg
   /usr/share/locale/ar/LC_MESSAGES/alacarte.mo
@@ -148,6 +148,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.11.8-1 -----
+Version bump.
 
 ----- version 0.11.6-1 -----
 Version bump for GNOME 2.24.
