@@ -6,9 +6,7 @@ menu specification.
 Runtime requirements:
   python-2.5.4-1
   python-gmenu-2.24.2-1
-  python-gnome2-2.22.3-1
-  python-gnomevfs2-2.22.3-1
-  python-gobject2-2.16.0-1
+  python-gobject2-2.16.1-1
   python-gtk2-2.14.0-1
 
 Build requirements:
@@ -33,15 +31,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack alacarte-0.11.8-X-src.tar.bz2
+  unpack alacarte-0.11.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./alacarte-0.11.8-X.cygport all
+  cygport ./alacarte-0.11.9-X.cygport all
 
 This will create:
-  /usr/src/alacarte-0.11.8-X-src.tar.bz2
-  /usr/src/alacarte-0.11.8-X.tar.bz2
+  /usr/src/alacarte-0.11.9-X-src.tar.bz2
+  /usr/src/alacarte-0.11.9-X.tar.bz2
 
 -------------------------------------------
 
@@ -65,16 +63,19 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/Alacarte/util.pyc
   /usr/lib/python2.5/site-packages/Alacarte/util.pyo
   /usr/share/alacarte/alacarte.glade
-  /usr/share/alacarte/logo.svg
   /usr/share/applications/alacarte.desktop
-  /usr/share/doc/alacarte-0.11.8/AUTHORS
-  /usr/share/doc/alacarte-0.11.8/COPYING
-  /usr/share/doc/alacarte-0.11.8/ChangeLog
-  /usr/share/doc/alacarte-0.11.8/INSTALL
-  /usr/share/doc/alacarte-0.11.8/NEWS
-  /usr/share/doc/alacarte-0.11.8/README
+  /usr/share/doc/alacarte-0.11.9/AUTHORS
+  /usr/share/doc/alacarte-0.11.9/COPYING
+  /usr/share/doc/alacarte-0.11.9/ChangeLog
+  /usr/share/doc/alacarte-0.11.9/INSTALL
+  /usr/share/doc/alacarte-0.11.9/NEWS
+  /usr/share/doc/alacarte-0.11.9/README
+  /usr/share/icons/hicolor/16x16/apps/alacarte.png
   /usr/share/icons/hicolor/22x22/apps/alacarte.png
-  /usr/share/icons/hicolor/scalable/apps/alacarte.svg
+  /usr/share/icons/hicolor/24x24/apps/alacarte.png
+  /usr/share/icons/hicolor/256x256/apps/alacarte.png
+  /usr/share/icons/hicolor/32x32/apps/alacarte.png
+  /usr/share/icons/hicolor/48x48/apps/alacarte.png
   /usr/share/locale/ar/LC_MESSAGES/alacarte.mo
   /usr/share/locale/as/LC_MESSAGES/alacarte.mo
   /usr/share/locale/be/LC_MESSAGES/alacarte.mo
@@ -97,16 +98,20 @@ Files included in the binary package:
   /usr/share/locale/fa/LC_MESSAGES/alacarte.mo
   /usr/share/locale/fi/LC_MESSAGES/alacarte.mo
   /usr/share/locale/fr/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/fur/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ga/LC_MESSAGES/alacarte.mo
   /usr/share/locale/gl/LC_MESSAGES/alacarte.mo
   /usr/share/locale/gu/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/he/LC_MESSAGES/alacarte.mo
   /usr/share/locale/hi/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/hr/LC_MESSAGES/alacarte.mo
   /usr/share/locale/hu/LC_MESSAGES/alacarte.mo
   /usr/share/locale/id/LC_MESSAGES/alacarte.mo
   /usr/share/locale/io/LC_MESSAGES/alacarte.mo
   /usr/share/locale/it/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ja/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ka/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/kk/LC_MESSAGES/alacarte.mo
   /usr/share/locale/kn/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ko/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ku/LC_MESSAGES/alacarte.mo
@@ -124,15 +129,17 @@ Files included in the binary package:
   /usr/share/locale/or/LC_MESSAGES/alacarte.mo
   /usr/share/locale/pa/LC_MESSAGES/alacarte.mo
   /usr/share/locale/pl/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/ps/LC_MESSAGES/alacarte.mo
   /usr/share/locale/pt/LC_MESSAGES/alacarte.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ro/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ru/LC_MESSAGES/alacarte.mo
   /usr/share/locale/si/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/sk/LC_MESSAGES/alacarte.mo
   /usr/share/locale/sl/LC_MESSAGES/alacarte.mo
   /usr/share/locale/sq/LC_MESSAGES/alacarte.mo
   /usr/share/locale/sr/LC_MESSAGES/alacarte.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/sr@latin/LC_MESSAGES/alacarte.mo
   /usr/share/locale/sv/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ta/LC_MESSAGES/alacarte.mo
   /usr/share/locale/te/LC_MESSAGES/alacarte.mo
@@ -148,6 +155,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.11.9-1 -----
+Version bump.
 
 ----- version 0.11.8-1 -----
 Version bump.
