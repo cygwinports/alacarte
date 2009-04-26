@@ -4,22 +4,22 @@ Alacarte is a menu editor for GNOME using the freedesktop.org
 menu specification.
 
 Runtime requirements:
-  python-2.5.4-1
-  python-gmenu-2.24.2-1
-  python-gobject2-2.16.1-1
-  python-gtk2-2.14.0-1
+  python-2.5.4-10
+  python-gmenu-2.26.0-1
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gnome-common-2.24.0-1
-  intltool-0.40.5-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gnome-common-2.26.0-1
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -31,15 +31,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack alacarte-0.11.9-X-src.tar.bz2
+  unpack alacarte-0.11.10-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./alacarte-0.11.9-X.cygport all
+  cygport ./alacarte-0.11.10-X.cygport all
 
 This will create:
-  /usr/src/alacarte-0.11.9-X-src.tar.bz2
-  /usr/src/alacarte-0.11.9-X.tar.bz2
+  /usr/src/alacarte-0.11.10-X-src.tar.bz2
+  /usr/src/alacarte-0.11.10-X.tar.bz2
 
 -------------------------------------------
 
@@ -64,12 +64,11 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/Alacarte/util.pyo
   /usr/share/alacarte/alacarte.glade
   /usr/share/applications/alacarte.desktop
-  /usr/share/doc/alacarte-0.11.9/AUTHORS
-  /usr/share/doc/alacarte-0.11.9/COPYING
-  /usr/share/doc/alacarte-0.11.9/ChangeLog
-  /usr/share/doc/alacarte-0.11.9/INSTALL
-  /usr/share/doc/alacarte-0.11.9/NEWS
-  /usr/share/doc/alacarte-0.11.9/README
+  /usr/share/doc/alacarte/AUTHORS
+  /usr/share/doc/alacarte/COPYING
+  /usr/share/doc/alacarte/ChangeLog
+  /usr/share/doc/alacarte/NEWS
+  /usr/share/doc/alacarte/README
   /usr/share/icons/hicolor/16x16/apps/alacarte.png
   /usr/share/icons/hicolor/22x22/apps/alacarte.png
   /usr/share/icons/hicolor/24x24/apps/alacarte.png
@@ -78,12 +77,14 @@ Files included in the binary package:
   /usr/share/icons/hicolor/48x48/apps/alacarte.png
   /usr/share/locale/ar/LC_MESSAGES/alacarte.mo
   /usr/share/locale/as/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/ast/LC_MESSAGES/alacarte.mo
   /usr/share/locale/be/LC_MESSAGES/alacarte.mo
   /usr/share/locale/be@latin/LC_MESSAGES/alacarte.mo
   /usr/share/locale/bg/LC_MESSAGES/alacarte.mo
   /usr/share/locale/bn/LC_MESSAGES/alacarte.mo
   /usr/share/locale/bn_IN/LC_MESSAGES/alacarte.mo
   /usr/share/locale/ca/LC_MESSAGES/alacarte.mo
+  /usr/share/locale/crh/LC_MESSAGES/alacarte.mo
   /usr/share/locale/cs/LC_MESSAGES/alacarte.mo
   /usr/share/locale/da/LC_MESSAGES/alacarte.mo
   /usr/share/locale/de/LC_MESSAGES/alacarte.mo
@@ -156,34 +157,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.11.9-1 -----
-Version bump.
-
------ version 0.11.8-1 -----
-Version bump.
-
------ version 0.11.6-1 -----
-Version bump for GNOME 2.24.
-
------ version 0.11.5-1 -----
-Version bump for GNOME 2.22.
-
------ version 0.11.3-3 -----
-Fixed packaging.
-
------ version 0.11.3-2 -----
-Rebuilt for python-2.5.
-
------ version 0.11.3-1 -----
-Version bump.
-
------ version 0.11.1.1-1 -----
-Version bump.
-
------ version 0.10.2-1 -----
-Version bump.
-
------ version 0.10.1-1 -----
+----- version 0.11.10-1 -----
 Initial release for Cygwin.
 
 
