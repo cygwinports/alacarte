@@ -1,5 +1,5 @@
 category: Gnome
-requires: python python-gmenu python-gobject2 python-gtk2
+requires: python python-gmenu python-gobject2.0 python-gtk2.0
 sdesc: "GNOME menu editor"
 ldesc: "Alacarte is a menu editor for GNOME using the freedesktop.org
 menu specification."
