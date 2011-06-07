@@ -1,0 +1,16 @@
+settings.menu (for GNOME 2.x control panels) has been replaced by gnomecc.menu
+(for GNOME3 control center applets).
+
+--- origsrc/alacarte-0.13.2/Alacarte/MenuEditor.py	2009-09-08 05:04:27.000000000 -0500
++++ src/alacarte-0.13.2/Alacarte/MenuEditor.py	2011-06-07 15:52:11.903534300 -0500
+@@ -49,8 +49,8 @@ class MenuEditor:
+ 		self.__remove_whilespace_nodes(self.applications.dom)
+ 
+ 		self.settings = Menu() 	 
+-		self.settings.tree = gmenu.lookup_tree('settings.menu', gmenu.FLAGS_SHOW_EMPTY|gmenu.FLAGS_INCLUDE_EXCLUDED|gmenu.FLAGS_INCLUDE_NODISPLAY|gmenu.FLAGS_SHOW_ALL_SEPARATORS)
+-		self.settings.visible_tree = gmenu.lookup_tree('settings.menu') 	 
++		self.settings.tree = gmenu.lookup_tree('gnomecc.menu', gmenu.FLAGS_SHOW_EMPTY|gmenu.FLAGS_INCLUDE_EXCLUDED|gmenu.FLAGS_INCLUDE_NODISPLAY|gmenu.FLAGS_SHOW_ALL_SEPARATORS)
++		self.settings.visible_tree = gmenu.lookup_tree('gnomecc.menu') 	 
+ 		self.settings.tree.sort_key = gmenu.SORT_DISPLAY_NAME
+ 		self.settings.visible_tree.sort_key = gmenu.SORT_DISPLAY_NAME
+ 		self.settings.path = os.path.join(util.getUserMenuPath(), self.settings.tree.get_menu_file()) 	 
