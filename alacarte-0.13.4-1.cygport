@@ -3,6 +3,4 @@ inherit python gnome2
 DESCRIPTION="GNOME application menu editor"
 HOMEPAGE="http://www.realistanew.com/projects/alacarte/"
 
-PATCH_URI="0.13.2-gnome3.patch"
-
 export PYTHON
