@@ -1,6 +1,0 @@
-inherit python gnome2
-
-DESCRIPTION="GNOME application menu editor"
-HOMEPAGE="http://www.realistanew.com/projects/alacarte/"
-
-export PYTHON

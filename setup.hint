@@ -1,5 +1,0 @@
-category: Gnome
-requires: gnome-panel python python-gi girepository-GMenu3.0 girepository-Gtk3.0
-sdesc: "GNOME menu editor"
-ldesc: "Alacarte is a menu editor for GNOME using the freedesktop.org
-menu specification."
