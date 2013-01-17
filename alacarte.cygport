@@ -2,7 +2,7 @@ inherit python gnome2
 
 NAME="alacarte"
 VERSION=3.6.1
-RELEASE=1
+RELEASE=2
 CATEGORY="GNOME"
 SUMMARY="GNOME menu editor"
 DESCRIPTION="Alacarte is a menu editor for GNOME using the freedesktop.org
