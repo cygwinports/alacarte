@@ -1,7 +1,7 @@
 inherit python gnome2
 
 NAME="alacarte"
-VERSION=3.7.90
+VERSION=3.10.0
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME menu editor"
