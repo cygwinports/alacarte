@@ -1,7 +1,7 @@
 inherit python gnome2
 
 NAME="alacarte"
-VERSION=3.10.0
+VERSION=3.11.91
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME menu editor"
@@ -9,5 +9,7 @@ DESCRIPTION="Alacarte is a menu editor for GNOME using the freedesktop.org
 menu specification."
 REQUIRES="girepository-GMenu3.0 girepository-Gtk3.0"
 HOMEPAGE="http://www.realistanew.com/projects/alacarte/"
+
+ARCH=noarch
 
 export PYTHON
